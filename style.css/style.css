@@ -1,0 +1,97 @@
+/*RESET CSS*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #1E1C21;
+    height: 80px;
+}
+/*é necessário ponto antes da classe*/
+/*a significa tag de ancora (links)*/
+/*.menu a{
+    color: white;
+}*/
+
+.container-grid{
+    width: 1200px;
+    margin: 0 auto;
+    /*0 é o alin. vertical e auto é o horizontal*/
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+}
+
+.menu{
+    justify-content: space-between;
+    display: flex;
+    width: 700px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner{
+    height: 600px;
+    background-image: url(../img/Banner.jpg);
+    background-repeat: no-repeat;    
+    background-position: center;
+    background-color: black;
+    background-size: cover;
+}
+
+.conteudo-banner{
+    height: 500px;
+    width: 270;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.posicionamento-banner{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+}
+
+.conteudo-banner h1{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 80px;
+}
+
+.conteudo-banner p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.conteudo-banner a{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+    background-color: #C31616;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.conteudo-banner-titulos{
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
